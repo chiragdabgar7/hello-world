@@ -1,7 +1,7 @@
 node('master') {
     stage('Developmet'){
        echo 'This is the development stage'
-       sh 'cat test4'
+       sh 'cat test4 test.txt'
     }
     stage('Testing'){
        echo 'In Testing Phase'
